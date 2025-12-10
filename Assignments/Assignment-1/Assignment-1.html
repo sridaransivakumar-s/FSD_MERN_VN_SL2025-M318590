@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Assignment 1</title>
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        background-color: aqua;
+        margin: 0;
+      }
+      .card {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+      }
+      .header-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .card-content {
+        width: 450px;
+        height: 500px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+      .card-content p {
+        margin: 0;
+      }
+      img{
+        height: 300px;
+      }
+      .footer-content{
+        display: flex;
+        position: fixed;
+        bottom: 0%;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        width: 100vw;
+        height: 100px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header-container">
+      <h1>Hello World</h1>
+    </header>
+    <div class="card">
+      <div class="card-content">
+        <img src="https://cdn.pixabay.com/photo/2023/11/13/18/01/fall-8386067_1280.jpg" />
+        <div>Title : Hi There</div>
+        <p>
+          Description: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Accusantium aspernatur ut, inventore ab aliquid a nihil! Quod nostrum
+          deleniti perspiciatis, in, mollitia facere reprehenderit voluptatibus
+          quibusdam et, eum doloremque error. Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Rerum laudantium eos explicabo
+          voluptatum ipsum fuga placeat animi maxime repellat! Mollitia a fuga
+          iure labore officia? Amet at soluta deserunt vitae.
+        </p>
+      </div>
+
+      <div class="card-content">
+        <img
+          src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg"
+        />
+        <div>Title : Hi There</div>
+        <p>
+          Description: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Accusantium aspernatur ut, inventore ab aliquid a nihil! Quod nostrum
+          deleniti perspiciatis, in, mollitia facere reprehenderit voluptatibus
+          quibusdam et, eum doloremque error. Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Impedit nobis illum voluptate tempore!
+          Laudantium sit velit deleniti, nulla vel adipisci dicta autem, ex quam
+          tenetur quos cumque perspiciatis itaque? Similique?
+        </p>
+      </div>
+
+      <div class="card-content">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZExXZfuy_mIpsM-T69cjwfWlNiY8MJK_shQ&s"
+        />
+        <div>Title : Hi There</div>
+        <p>
+          Description: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Accusantium aspernatur ut, inventore ab aliquid a nihil! Quod nostrum
+          deleniti perspiciatis, in, mollitia facere reprehenderit voluptatibus
+          quibusdam et, eum doloremque error. Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Voluptatem quae incidunt excepturi
+          corporis molestiae aspernatur, qui facilis enim facere! Omnis beatae
+          nobis impedit aspernatur minus, nostrum officia autem doloremque
+          debitis.
+        </p>
+      </div>
+    </div>
+    <footer class="footer-content">&copy; 2025 MyWebsite. All rights reserved.</footer>
+  </body>
+</html>
