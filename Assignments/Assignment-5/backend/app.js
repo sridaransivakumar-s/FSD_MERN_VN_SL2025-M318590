@@ -9,7 +9,7 @@ app.use('/',userRouter);
 
 
 const uri =
-  "mongodb+srv://admin:root@cluster0.kw7wi6m.mongodb.net/MernStack?appName=Cluster0";
+  "mongodb+srv://admin:<dbPassword>@cluster0.kw7wi6m.mongodb.net/MernStack?appName=Cluster0";
 mongoose.connect(uri)
 .then(()=>console.log("Database Connected"))
 .catch((err)=>console.log(err)
